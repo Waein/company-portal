@@ -10,9 +10,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://121.196.18.178:3306/portal?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://127.0.0.1:3306/portal?useUnicode=true&characterEncoding=utf8
     username: root
-    password: mgm!@#123
+    password: root
     initialSize: 1
     minIdle: 3
     maxActive: 20
